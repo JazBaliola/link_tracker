@@ -1,2 +1,2 @@
 # link_tracker
-Track link 
+Track links
