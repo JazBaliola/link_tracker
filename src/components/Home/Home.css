@@ -1,5 +1,89 @@
 
 
 .Home {
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.login-btn, .register-btn {
+    color: #fefae0;
+    background-color: #0d1b2a;
+    border: 2px #fefae0 solid;
+    font-size: 1.5rem;
+    padding: 10px 25px;
+}
+
+.Front {
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url('/public/bg_front.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.front-header {
+    margin-top: 35vh;
+}
+
+.front-header h1 {
+    font-size: 5rem;
+}
+
+.front-header p {
+    font-size: 18px;
+}
+
+.front-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* Intructions Section */
+
+.Instruction {
+    background-color: #fefae0;
+    color: #606c38;
+    text-align: center;
+    padding: 30px;
+}
+
+.Instruction h1 {
+    color: #283618;
+    text-shadow: 1px 1px 1px #606c38;
+}
+
+.instruction-text ul {
+    margin-top: 1%;
+    list-style: none;
+}
+
+.instruction-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.instruction-card {
+    background-color: #FFF;
+    padding: 25px 25px;
+    border-radius: 10px;
+    box-shadow: 1px 3px 5px 5px #283618;
+}
+
+.instruction-card i {
+    font-size: 5rem;
+}
+
+
+/* Footer */
+
+.Footer {
+    padding: 18px;
+    text-align: center;
+    background-color: #0d1b2a;
 }
