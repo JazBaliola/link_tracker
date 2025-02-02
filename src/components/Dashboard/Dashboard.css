@@ -1,0 +1,21 @@
+.Dashboard {
+    display: grid;
+    grid-template-columns: 10% auto;
+}
+
+.sidebar {
+    background-color: rgba(192, 188, 188, 0.437) !important;
+    width: 100%;
+    height: 100vh;
+}
+
+.main {
+    display: grid;
+    grid-template-rows: 80% auto;
+}
+
+.accountInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
