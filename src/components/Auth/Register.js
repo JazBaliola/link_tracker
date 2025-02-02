@@ -18,8 +18,15 @@ const Register = () => {
                     <h1>Account Register</h1>
 
                     <div className='inputs'>
-                        <input type='text' placeholder='Email' />
-                        <input type='password' placeholder='Password' />
+                        <input type='text' placeholder='Email' list='emails' required />
+                        <datalist id='emails'>
+                            <option value='@gmail.com'></option>
+                            <option value='@yahoo.com'></option>
+                            <option value='@outlook.com'></option>
+                            <option value='@icloud.com'></option>
+                        </datalist>
+                        
+                        <input type='password' placeholder='Password' required />
                         <button>Register</button>
                     </div>
 

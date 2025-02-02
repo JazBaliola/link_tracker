@@ -18,9 +18,16 @@ const Login = () => {
                     <h1>Account Login</h1>
 
                     <div className='inputs'>
-                        <input type='text' placeholder='Email' />
-                        <input type='password' placeholder='Password' />
-                        <button>Login</button>
+                        <input type='text' placeholder='Email' list='emails' required />
+                        <datalist id='emails'>
+                            <option value='@gmail.com'></option>
+                            <option value='@yahoo.com'></option>
+                            <option value='@outlook.com'></option>
+                            <option value='@icloud.com'></option>
+                        </datalist>
+
+                        <input type='password' placeholder='Password' required />
+                        <button type='submit'>Login</button>
                     </div>
 
                     <p>No Account? <a href='/Register' rel='noreferrer'>Register</a> for free</p>
