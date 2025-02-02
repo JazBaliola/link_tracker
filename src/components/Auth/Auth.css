@@ -1,7 +1,18 @@
 
-.Login {
+.Login, .Register {
+    display: grid;
+    grid-template-rows: auto auto auto;
+}
+
+.Login img, .Register img {
+    max-width: 155px;
     width: 100%;
-    height: 100%;
+    height: auto;
+}
+
+.Login a, .Register a {
+    margin-top: 1%;
+    text-align: center;
 }
 
 .backdrop {
@@ -9,38 +20,42 @@
     justify-content: center;
     align-items: center;
     margin: 25vh 25vw 25vh 25vw;
-    background-color: #8d99ae42;
+    background-color: #606c3857;
     width: 50%;
-    height: 50vh;
+    height: 40vh;
     border-radius: 25px;
 }
 
-.Login form {
+.Login form, .Register form {
     margin: 5vh 0 5vh 0;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.Login h1 {
+.Login h1, .Register h1 {
     font-size: 3vw;
 }
 
-.Login form a {
+.Login form p, .Register form p {
+    margin-top: 1%;
+}
+
+.Login form a, .Register form a {
     text-decoration: underline;
-    margin: 1px 1px 0 1px;
+    margin: 0 1px 0 1px;
 }
 
-.Login .footer {
-    position: fixed;
+.Login .footer, .Register .footer {
     bottom: 0;
+    text-align: center;
 }
 
-.Login button {
+.Login button, .Register button {
     font-size: 1rem;
 }
 
-.Login .inputs {
+.Login .inputs, .Register .inputs {
     display: flex;
     flex-direction: column;
     gap: 1rem;

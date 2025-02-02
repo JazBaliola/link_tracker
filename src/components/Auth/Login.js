@@ -9,6 +9,8 @@ const Login = () => {
     return(
         <div className='Login'>
 
+            <a href='./' rel='noreferrer'><img src='logo_sample.png' alt='LOGO Link Tracker by Jaz' title='Link Tracker by Jaz' /></a>
+
             <div className='backdrop'>
 
                 <form>
@@ -24,9 +26,9 @@ const Login = () => {
                     <p>No Account? <a href='/Register' rel='noreferrer'>Register</a> for free</p>
                 </form>
 
-                <p className='footer'>&copy; <span>{year}</span> <a href='https://jazcodeit.ca' target='_blank' rel="noreferrer">JazCodeIt.ca</a></p>
-
             </div>
+
+            <p className='footer'>Copyright &copy; <span>{year}</span> <a href='https://jazcodeit.ca' target='_blank' rel="noreferrer">JazCodeIt.ca</a></p>
 
         </div>
     );

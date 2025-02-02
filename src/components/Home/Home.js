@@ -1,4 +1,5 @@
 import React from 'react';
+import './Home.css';
 
 
 const Home = () => {
@@ -15,8 +16,8 @@ const Home = () => {
                 </div>
 
                 <div className='front-buttons'>
-                    <button className='btn btn-success' onClick={() => window.open("./Login", "_self")}>Login</button>
-                    <button className='btn btn-primary' onClick={() => window.open("./Register", "_self")}>Register</button>
+                    <button className='login-btn'  onClick={() => window.open("./Login", "_self")}>Login</button>
+                    <button className='register-btn' onClick={() => window.open("./Register", "_self")}>Register</button>
                 </div>
 
             </div>
@@ -58,7 +59,7 @@ const Home = () => {
             </div>
 
             <div className='Footer'>
-                <p>Copyright &copy; <span>2025</span> <a href='https://jazcodeit.ca' target='_blank'>JazCodeIt</a>.</p>
+                <p>Copyright &copy; <span>2025</span> <a href='https://jazcodeit.ca' target='_blank' rel='noreferrer'>JazCodeIt</a>.</p>
             </div>
 
         </div>
