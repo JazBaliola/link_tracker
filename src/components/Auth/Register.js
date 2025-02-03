@@ -9,7 +9,7 @@ const Register = () => {
     return(
         <div className='Register'>
 
-            <a href='./' rel='noreferrer'><img src='logo_sample.png' alt='LOGO Link Tracker by Jaz' title='Link Tracker by Jaz' /></a>
+            <a href='./' rel='noreferrer'><img src='logo.png' alt='LOGO Link Tracker by Jaz' title='Link Tracker by Jaz' /></a>
 
             <div className='backdrop'>
 

@@ -1,13 +1,37 @@
 .Dashboard {
+
     display: grid;
-    grid-template-columns: 10% auto;
+    grid-template-columns: 15% auto;
 }
 
 .sidebar {
-    background-color: rgba(192, 188, 188, 0.437) !important;
-    width: 100%;
+    display: flex;
+    flex-direction: column;
+    color: #fefae0;
+    background-color: #606c38c9;
+    width: 250px;
     height: 100vh;
+    box-shadow: 2px 2px 2px 1px #000;
 }
+
+.sidebar img {
+    max-width: 200px;
+    margin: 25px 10% 15px 10%;
+}
+
+.sidebar ul{
+    
+}
+
+.sidebar li {
+    cursor: pointer;
+    padding: 15px;
+}
+
+.sidebar li:hover, .sidebar li:focus {
+    background-color: #283618;
+}
+
 
 .main {
     display: grid;
@@ -18,4 +42,28 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+}
+
+.limit, .total {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #606c38c9;
+    color: #fefae0;
+    height: 35%;
+    border-radius: 18px;
+    padding: 25px;
+    box-shadow: 3px 3px 3px 3px #000;
+}
+
+.limit i, .total i {
+    color: #fefae0 !important;
+    margin-right: 8px;
+    font-size: 3rem;
+    line-height: 1;
+}
+
+.limit p, .total p {
+    line-height: 3.2;
+    margin-left: 8px;
 }
